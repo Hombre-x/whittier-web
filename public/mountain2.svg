@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="Mountain">
+  <g color="#000" font-family="sans-serif" font-weight="400" fill="#87ddfd" class="color000000 svgShape">
+    <path fill="#87ddfd"
+      style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+      d="M11.49 1040.988a.873.873 0 0 0-.676.317.5.5 0 0 0-.044.064l-2.178 3.662a.5.5 0 1 0 .86.512l2.038-3.432 3.121 5.25h-4.62a.5.5 0 1 0 0 1h5.5a.5.5 0 0 0 .429-.754l-3.71-6.238a.5.5 0 0 0-.044-.064.873.873 0 0 0-.676-.317z"
+      overflow="visible" transform="translate(0 -1036.362)" class="colorf05542 svgShape"></path>
+    <path fill="#094067"
+      style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+      d="M5.5 1039.367a.966.966 0 0 0-.75.35.5.5 0 0 0-.043.064l-4.627 7.826a.5.5 0 0 0 .43.754h9.98a.5.5 0 0 0 .432-.754l-4.629-7.826a.5.5 0 0 0-.043-.064.966.966 0 0 0-.75-.35zm0 1.037 4.113 6.957H1.387l4.113-6.957Z"
+      overflow="visible" transform="translate(0 -1036.362)" class="color2b4255 svgShape"></path>
+    <path fill="#094067"
+      style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+      d="M3.969 1041.855a.5.5 0 0 0-.453.666l.504 1.5a.5.5 0 0 0 .828.194l.646-.647.647.647a.5.5 0 0 0 .707 0l.986-.987a.5.5 0 1 0-.707-.707l-.633.633-.646-.646a.5.5 0 0 0-.707 0l-.43.43-.246-.735a.5.5 0 0 0-.496-.348Z"
+      overflow="visible" transform="translate(0 -1036.362)" class="color2b4255 svgShape"></path>
+    <path fill="#87ddfd"
+      style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal"
+      d="M10.17 1042.857a.5.5 0 0 0-.285.9l1.3 1a.5.5 0 0 0 .61 0l1.3-1a.5.5 0 1 0-.609-.792l-.996.766-.994-.766a.5.5 0 0 0-.326-.108z"
+      overflow="visible" transform="translate(0 -1036.362)" class="colorf05542 svgShape"></path>
+  </g>
+</svg>
