@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/styles/main.sass">
     <script src="/src/routes/router.ts" async></script>
     <script src="/src/components/hamburger.ts" defer></script>
+    <script src="/src/components/map.ts" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whittier - Ubicación</title>
   </head>
@@ -47,6 +49,15 @@
       <div class="info-img-container">
         <img class="info-img" src="/images/Whittier2.webp" alt="Begich Towers" />
       </div>
+      
+    </section>
+    <div class="separator">
+      <span></span>
+    </div>
+    <!-- Map -->
+    <section class="navigation-map">
+      <h1>¿Cómo llegar?</h1>
+      <div id="map"></div>
     </section>
     <!-- Footer -->
     <footer>

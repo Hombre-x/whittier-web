@@ -1,4 +1,9 @@
-
+/**
+ * Se hizo uso de la API de Google maps para mostrar el 
+ * mapa de Whitier, Alaska, Estados Unidos.
+ * 
+ * Es interactivo, puedes moverte por el mapa y hacer zoom.
+ */
 
 let map: google.maps.Map
 let marker: google.maps.Marker
