@@ -1,4 +1,4 @@
-
+// TODO: Create proper routing for the app
 
 // Logo button
 const logoButton = document.querySelector('.logo-container') as HTMLButtonElement
