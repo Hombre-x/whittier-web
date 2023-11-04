@@ -2,8 +2,10 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/mountain2.svg" />
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
+    <link rel="stylesheet" href="styles/main.sass">
+    <script src="/src/routes/router.ts" async></script>
+    <script src="/src/components/hamburger.ts" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whittier - Home</title>
   </head>
@@ -11,12 +13,17 @@
     <header>
       <!-- Logo -->
       <div class="logo-container">
-        <img class="logo" src="/public/mountain2.svg" alt="Artic Mountains" />
+        <img class="logo" src="/mountain2.svg" alt="Artic Mountains" />
         <h1>Whittier</h1>
       </div>
       <!-- Navigation -->
       <nav>
-        <ul>
+        <button class="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <ul class="menu">
           <li><a href="/">Inicio</a></li>
           <li><a href="/pages/location.html">Ubicación</a></li>
           <li><a href="/pages/people.html">Personas</a></li>
@@ -34,14 +41,14 @@
           Whitter es un pequeño pueblo ubicado es Alaksa, EE.UU. 
           Tambien es el hogar de las Begich Towers.
         </p>
-        <button class="btn">Conoce mas!</button>
+        <button class="btn">Conoce mas!</button> 
       </div>
     </div>
     <!-- Footer -->
     <footer>
       <div class="footer-info-container">
         <div class="footer-logo-container">
-          <img class="footer-logo" src="/public/mountain2-footer.svg" alt="Artic Mountains" />
+          <img class="footer-logo" src="/mountain2-footer.svg" alt="Artic Mountains" />
           <h1>Whittier</h1>
         </div>
       </div>

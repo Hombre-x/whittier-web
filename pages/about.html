@@ -2,8 +2,12 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/public/mountain2.svg" />
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
+    <link rel="stylesheet" href="/styles/main.sass">
+    <script src="/src/routes/router.ts" async></script>
+    <script src="/src/components/hamburger.ts" defer></script>
+    <script src="/src/components/map.ts" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whittier - Créditos</title>
   </head>
@@ -11,12 +15,17 @@
     <header>
       <!-- Logo -->
       <div class="logo-container">
-        <img class="logo" src="/public/mountain2.svg" alt="Artic Mountains" />
+        <img class="logo" src="/mountain2.svg" alt="Artic Mountains" />
         <h1>Whittier</h1>
       </div>
       <!-- Navigation -->
       <nav>
-        <ul>
+        <button class="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+        <ul class="menu">
           <li><a href="/">Inicio</a></li>
           <li><a href="/pages/location.html">Ubicación</a></li>
           <li><a href="/pages/people.html">Personas</a></li>
@@ -75,11 +84,17 @@
         </div>
       </div> 
     </section>
+    <!-- Map -->
+    <section class="navigation-map">
+      <h1>¿Cómo llegar?</h1>
+      <div id="map"></div>
+    </section>
+
     <!-- Footer -->
     <footer>
       <div class="footer-info-container">
         <div class="footer-logo-container">
-          <img class="footer-logo" src="/public/mountain2-footer.svg" alt="Artic Mountains" />
+          <img class="footer-logo" src="/mountain2-footer.svg" alt="Artic Mountains" />
           <h1>Whittier</h1>
         </div>
       </div>
