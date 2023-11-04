@@ -1,100 +1,136 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
-    <link rel="stylesheet" href="/styles/main.sass">
-    <script type="module" src="/src/routes/router.ts" async></script>
-    <script type="module" src="/src/components/hamburger.ts" defer></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Whittier - Créditos</title>
-  </head>
-  <body> 
-    <header>
-      <!-- Logo -->
-      <div class="logo-container">
-        <img class="logo" src="/mountain2.svg" alt="Artic Mountains" />
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
+  <link rel="stylesheet" href="/styles/main.sass">
+  <script type="module" src="/src/routes/router.ts" async></script>
+  <script type="module" src="/src/components/hamburger.ts" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Whittier - Créditos</title>
+</head>
+
+<body>
+  <header>
+    <!-- Logo -->
+    <div class="logo-container">
+      <img class="logo" src="/mountain2.svg" alt="Artic Mountains" />
+      <h1>Whittier</h1>
+    </div>
+    <!-- Navigation -->
+    <nav>
+      <button class="hamburger">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <ul class="menu">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/pages/location.html">Ubicación</a></li>
+        <li><a href="/pages/people.html">Personas</a></li>
+        <li><a href="/pages/activities.html">Actividades</a></li>
+        <li><a href="/pages/history.html">Historia</a></li>
+        <li><a href="/pages/about.html">Créditos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Info -->
+  <section class="credits-container">
+    <!-- Row -->
+    <div class="info-container" id="type-of-credit">
+      <!-- Column image -->
+      <div class="info-container" id="image-credit">
+        <div class="info-text-container">
+          <h1>Imágenes</h1>
+          <p>Las imagenes fueron obtenidas gracias a:</p>
+        </div>
+        <div class="info-text-container">
+          <ul class="credits-links">
+            <li><a href="https://flic.kr/p/4xrHB6" target="_blank">
+                <h3>Bob DeHoff</h3>
+              </a></li>
+            <li><a href="https://flic.kr/p/83Po7S" target="_blank">
+                <h3>Alaszkaland</h3>
+              </a></li>
+            <li><a href="https://flic.kr/p/5fazTj" target="_blank">
+                <h3>c book</h3>
+              </a></li>
+            <li><a href="https://flic.kr/p/22NhCXb" target="_blank">
+                <h3>A World Traveller</h3>
+              </a></li>
+            <li><a href="https://twitter.com/Pedro_Torrijos/status/1205221427806384144" target="_blank">
+                <h3>Pedro Torrijos</h3>
+              </a></li>
+            <li><a href="https://media.anabelmagazine.com/o.anabel.al/media3/-785-0-60ef2108c80f8.jpg" target="_blank">
+                <h3>Anabel</h3>
+              </a></li>
+            <li><a href="https://media.alaskapublic.org/wp-content/uploads/2021/09/Whittier-Building.jpg"
+                target="_blank">
+                <h3>Alaska Public Media</h3>
+              </a></li>
+            <li><a href="http://www.rrpicturearchives.net/showPicture.aspx?id=4896367" target="_blank">
+                <h3>Alaska rails</h3>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Column video -->
+      <div class="info-container" id="documental-credit">
+        <div class="info-text-container">
+          <h1>Documentales</h1>
+          <p>Los videos y documentales son gracias a:</p>
+        </div>
+        <div class="info-text-container">
+          <ul class="credits-links">
+            <li><a href="https://youtu.be/dZ_OaXCvoVM?si=xsPk0ei1cz7PZHSH" target="_blank">
+                <h3>Un Mundo Inmenso</h3>
+              </a></li>
+            <li><a href="https://youtu.be/naPguX84Amg?si=Nw-GLOxmaH1YlvD9" target="_blank">
+                <h3>Indie Alaska</h3>
+              </a></li>
+            <li><a href="https://youtu.be/Pxha9T-eScc?si=SvyRqihle4fzzDpy" target="_blank">
+                <h3>CNN</h3>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- Column other -->
+      <div class="info-container" id="other-credit">
+        <div class="info-text-container">
+          <h1>Otros</h1>
+          <p>Agradecimientos adicionales a:</p>
+        </div>
+        <div class="info-text-container">
+          <ul class="credits-links">
+            <li><a href="https://iconscout.com/free-icon/mountain-49" target="_blank">
+                <h3>Jemis Mali</h3>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="navigation-map">
+    <h1>Mapa de navegación</h1>
+    <div class="info-img-container">
+      <img src="/images/Mapa de navegación - Marco 1.jpg" alt="Mapa de navegación">
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-info-container">
+      <div class="footer-logo-container">
+        <img class="footer-logo" src="/mountain2-footer.svg" alt="Artic Mountains" />
         <h1>Whittier</h1>
       </div>
-      <!-- Navigation -->
-      <nav>
-        <button class="hamburger">
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-          <span class="hamburger-line"></span>
-        </button>
-        <ul class="menu">
-          <li><a href="/">Inicio</a></li>
-          <li><a href="/pages/location.html">Ubicación</a></li>
-          <li><a href="/pages/people.html">Personas</a></li>
-          <li><a href="/pages/activities.html">Actividades</a></li>
-          <li><a href="/pages/history.html">Historia</a></li>
-          <li><a href="/pages/about.html">Créditos</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Info -->
-    <section class="credits-container">
-      <!-- Row -->
-      <div class="info-container" id="type-of-credit">
-        <!-- Column image -->
-        <div class="info-container" id="image-credit">
-          <div class="info-text-container">
-            <h1>Imágenes</h1>
-            <p>Las imagenes fueron obtenidas gracias a:</p>
-          </div>
-          <div class="info-text-container">
-            <ul>
-              <li><h3>Bob DeHoff</h3></li>
-              <li><h3>Alaszkaland</h3></li>
-              <li><h3>c book</h3></li>
-              <li><h3>A World Traveller</h3></li>
-              <li><h3>Pedro Torrijos</h3></li>
-              <li><h3>Alaska Public Media</h3></li>
-            </ul>
-          </div>
-        </div>
-        <!-- Column video -->
-        <div class="info-container" id="documental-credit">
-          <div class="info-text-container">
-            <h1>Documentales</h1>
-            <p>Los videos y documentales son gracias a:</p>
-          </div>
-          <div class="info-text-container">
-            <ul>
-              <li><h3>Un Mundo Inmenso</h3></li>
-              <li><h3>Indie Alaska</h3></li>
-              <li><h3>CNN</h3></li>
-            </ul>
-          </div> 
-        </div>
-        <!-- Column other -->
-        <div class="info-container" id="other-credit">
-          <div class="info-text-container">
-            <h1>Otros</h1>
-            <p>Agradecimientos adicionales a:</p>
-          </div>
-          <div class="info-text-container">
-            <ul>
-              <li><h3>Jemis Mali</h3></li>
-            </ul>
-          </div>
-        </div>
-      </div> 
-    </section>
+    </div>
+    <div id="footer-copyright">
+      <p>Made with 💌 by Gabriel.</p>
+    </div>
+  </footer>
+</body>
 
-
-    <!-- Footer -->
-    <footer>
-      <div class="footer-info-container">
-        <div class="footer-logo-container">
-          <img class="footer-logo" src="/mountain2-footer.svg" alt="Artic Mountains" />
-          <h1>Whittier</h1>
-        </div>
-      </div>
-      <div id="footer-copyright">
-        <p>Made with 💌 by Gabriel.</p>
-      </div>
-    </footer>
-  </body>
 </html>
