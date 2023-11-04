@@ -11,7 +11,13 @@ export default defineConfig( () => {
           history:    "/pages/history.html",
           location:   "/pages/location.html",
           people:     "/pages/people.html",
-        }
+        },
+
+        external: [
+          "https://maps.googleapis.com/maps/api/js"
+        ],
+
+
       }
     }
   }

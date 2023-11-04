@@ -20,7 +20,7 @@ const begichTowers: google.maps.LatLngLiteral = {
   lng: -148.68579853714562
 }
 
-async function initMap() {
+function initMap() {
   
   map = new google.maps.Map(document.getElementById("map") as HTMLElement, {
     center,
@@ -36,6 +36,6 @@ async function initMap() {
 }
 
 
-
+(window as any).initMap = initMap;
 
 

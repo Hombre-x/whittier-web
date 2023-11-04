@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
     <link rel="stylesheet" href="/styles/main.sass">
-    <script src="/src/routes/router.ts" async></script>
-    <script src="/src/components/hamburger.ts" defer></script>
-    <script src="/src/components/map.ts" defer></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" defer></script>
+    <script type="module" src="/src/routes/router.ts" defer></script>
+    <script type="module" src="/src/components/hamburger.ts" defer></script>
+    <script type="module" src="/src/components/map.ts" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Whittier - Ubicación</title>
   </head>
@@ -55,6 +54,7 @@
       <span></span>
     </div>
     <!-- Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=initMap" defer></script>
     <section class="navigation-map">
       <h1>¿Cómo llegar?</h1>
       <div id="map"></div>
