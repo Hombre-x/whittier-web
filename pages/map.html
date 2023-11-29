@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/mountain2.svg" />
     <link rel="stylesheet" href="/styles/main.sass">
-    <script type="module" src="/src/routes/router.ts" async></script>
+    <script type="module" src="/src/routes/router.ts" defer></script>
     <script type="module" src="/src/components/hamburger.ts" defer></script>
+    <script type="module" src="/src/components/map/map.ts" defer></script>
+    <script type="module" src="/src/components/map/markers.ts" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Whittier - Personas</title>
+    <title>Whittier - Ubicación</title>
   </head>
   <body> 
     <header>
@@ -35,22 +37,9 @@
       </nav>
     </header>
     <!-- Info -->
-    <section class="info-container" id="people-info">
-      <div class="info-text-container">
-        <h1>¿Quién vive en Whittier?</h1>
-        <p>
-          La mayoria de la gente que vive en Whittier son personas que trabajan en el puerto, en el ferrocarril o en el gobierno, aunque tambien es comun encontrar turistas en la zona. 
-          La población de Whittier es de 282 personas, y casi todos son Alaskanos.
-        </p>
-      </div>
-      <div class="info-img-gallery">
-        <div class="info-img-container" id="info-img-1">
-          <img class="info-img" src="/images/Whittier5.jpg" alt="Begich Towers" />
-        </div>
-        <div class="info-img-container" id="info-img-2">
-          <img class="info-img" src="/images/Whittier6.jpg" alt="Begich Towers" />
-        </div>
-      </div>
+    <section class="map-container">
+      <h1>Mapa interactivo de Whittier</h1>
+      <div id="map"></div>
     </section>
     <!-- Footer -->
     <footer>
@@ -66,3 +55,11 @@
     </footer>
   </body>
 </html>
+
+<template>
+  <div id="begichtowers-info-window">
+    <h1>Begich Towers</h1>
+    <p>Aquí quedan las Begich Towers!</p>
+    <img src="./images/Whittier3.webp" alt="Begich Towers">
+  </div>
+</template>

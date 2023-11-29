@@ -10,15 +10,16 @@ export default defineConfig( () => {
           activities: "/pages/activities.html",
           history:    "/pages/history.html",
           location:   "/pages/location.html",
+          map:        "/pages/map.html",
           people:     "/pages/people.html",
         },
 
         external: [
           "https://maps.googleapis.com/maps/api/js"
         ],
+      },
 
-
-      }
+      target: "esnext",
     }
   }
 })
